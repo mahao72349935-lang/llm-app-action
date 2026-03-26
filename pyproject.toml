@@ -6,9 +6,11 @@ authors = [
     {name = "mh_code",email = "hao.ma@scjzcz.com"}
 ]
 readme = "README.md"
-requires-python = "^3.10"
+requires-python = ">=3.10,<3.13"
 dependencies = [
-    "requests (>=2.33.0,<3.0.0)"
+    "requests (>=2.33.0,<3.0.0)",
+    "torch (>=2.11.0,<3.0.0)",
+    "transformers (>=5.3.0,<6.0.0)"
 ]
 
 
